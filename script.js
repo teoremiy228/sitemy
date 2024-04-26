@@ -32,7 +32,7 @@ function displayState() {
     document.getElementById('choice1').innerText = scenario.choices[0];
     document.getElementById('choice2').innerText = scenario.choices[1];
 
-    document.getElementById('choice2').style.display = scenario.choices[1] ? 'block' : 'none';
+    document.getElementById('choice2').style.display = scenario.choices[1];
 }
 function makeChoice(choice) {
     currentState = scenarios[currentState].next[choice - 1];
