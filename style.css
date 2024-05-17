@@ -89,3 +89,9 @@ p {
     text-align: center;
     padding: 200px;
 }
+.lox {
+    background-color: #49959f;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
